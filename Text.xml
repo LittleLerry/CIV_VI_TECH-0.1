@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Test_Civic_Text -->
+<!-- Author: polaris_cheung -->
+<GameData>
+	<LocalizedText>
+		<!--For DECONSTRUCTIVISM-->
+		<Row Tag="LOC_CIVIC_DECONSTRUCTIVISM_NAME" Language="en_us">
+			<Text>
+				Deconstructivism
+			</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_DECONSTRUCTIVISM_DESCRIPTION" Language="en_us">
+			<Text>
+				This is deconstructivism.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_CONTROLLED_NUCLEAR_FUSION_NAME" Language="en_us">
+			<Text>
+				Controlled Nuclear Fusion
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_CONTROLLED_NUCLEAR_FUSION_DESCRIPTION" Language="en_us">
+			<Text>
+				Energy won't be considered as a kind of limited resources any more.[NEWLINE]+4 [ICON_Production] production to the Mine improvement.+20% [ICON_Science] science in all cities.+20% [ICON_Production] production in all cities.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_HIGH_ENERGY_PHYSICS_NAME" Language="en_us">
+			<Text>
+				High Energy Physics
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_HIGH_ENERGY_PHYSICS_DESCRIPTION" Language="en_us">
+			<Text>
+				We want to figure out the behaviour of those things in which is highly near the light speed.[NEWLINE] +20% [ICON_Science] science in all cities.+20% [ICON_Production] production in all cities.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_EXOTIC_MATTER_NAME" Language="en_us">
+			<Text>
+				Exotic Matter
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_EXOTIC_MATTER_DESCRIPTION" Language="en_us">
+			<Text>
+				Matters with negative mass or infinity denisty seems not only exist in our imagination. We required new math to handle them[NEWLINE]+20% [ICON_Science] science in all cities.+20% [ICON_Production] production in all cities.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_SUB_SPACE_PHYSICS_NAME" Language="en_us">
+			<Text>
+				Sub Space Physics
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_SUB_SPACE_PHYSICS_DESCRIPTION" Language="en_us">
+			<Text>
+				Human beings are learning to control the space around them now.[NEWLINE]+20% [ICON_Science] science in all cities.+20% [ICON_Production] production in all cities.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_ALCUBIERRE_DRIVE_NAME" Language="en_us">
+			<Text>
+				Alcubierre Drive
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALCUBIERRE_DRIVE_DESCRIPTION" Language="en_us">
+			<Text>
+				Nothing is impossible, even this powerful enginee driven faster than light.[NEWLINE]+20% [ICON_Science] science in all cities.+20% [ICON_Production] production in all cities.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_INDUSTRIALIZATION_GRANTS_COAL_NAME" Language="en_us">
+			<Text>
+				Coal Production Operation
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_INDUSTRIALIZATION_GRANTS_COAL_DESCRIPTION" Language="en_us">
+			<Text>
+				Each Time you finish researching this leaf, you will receive 35 units of coal. Can be researched many times.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_MILITARY_ENGINEERING_GRANTS_NITER_NAME" Language="en_us">
+			<Text>
+				Niter Production Operation
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_MILITARY_ENGINEERING_GRANTS_NITER_DESCRIPTION" Language="en_us">
+			<Text>
+				Each Time you finish researching this leaf, you will receive 25 units of niter. Can be researched many times.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_REFINING_GRANTS_OIL_NAME" Language="en_us">
+			<Text>
+				Oil Production Operation
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_REFINING_GRANTS_OIL_DESCRIPTION" Language="en_us">
+			<Text>
+				Each Time you finish researching this leaf, you will receive 35 units of oil. Can be researched many times.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_RADIO_GRANTS_ALUMINUM_NAME" Language="en_us">
+			<Text>
+				Aluminum Production Operation
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_RADIO_GRANTS_ALUMINUM_DESCRIPTION" Language="en_us">
+			<Text>
+				Each Time you finish researching this leaf, you will receive 20 units of aluminum. Can be researched many times.
+			</Text>
+		</Row>
+		<!--...............................................................-->
+		<Row Tag="LOC_TECH_COMBINED_ARMS_GRANTS_URANIUM_NAME" Language="en_us">
+			<Text>
+				Uranium Production Operation
+			</Text>
+		</Row>
+		<Row Tag="LOC_TECH_COMBINED_ARMS_GRANTS_URANIUM_DESCRIPTION" Language="en_us">
+			<Text>
+				Each Time you finish researching this leaf, you will receive 20 units of uranium. Can be researched many times.
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
+

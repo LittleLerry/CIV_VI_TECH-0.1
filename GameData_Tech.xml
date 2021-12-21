@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Test_Civic_GameData -->
+<!-- Author: polaris_cheung -->
+<GameData>
+	<!--...............................................................-->
+	<!--All decleartion must be written here...........................-->
+
+	<Types>
+		<!--Here comes the definition of civic/tech....................-->
+		<Row Type="CIVIC_DECONSTRUCTIVISM" Kind="KIND_CIVIC"/>
+		<Row Type="TECH_CONTROLLED_NUCLEAR_FUSION" Kind="KIND_TECH" />
+		<Row Type="TECH_HIGH_ENERGY_PHYSICS" Kind="KIND_TECH" />
+		<Row Type="TECH_EXOTIC_MATTER" Kind="KIND_TECH" />
+		<Row Type="TECH_SUB_SPACE_PHYSICS" Kind="KIND_TECH" />
+		<Row Type="TECH_ALCUBIERRE_DRIVE" Kind="KIND_TECH" />
+
+		<!--The following tech can be researched many times-->
+		<Row Type="TECH_INDUSTRIALIZATION_GRANTS_COAL" Kind="KIND_TECH" />
+		<Row Type="TECH_MILITARY_ENGINEERING_GRANTS_NITER" Kind="KIND_TECH" />
+		<Row Type="TECH_REFINING_GRANTS_OIL" Kind="KIND_TECH" />
+		<Row Type="TECH_RADIO_GRANTS_ALUMINUM" Kind="KIND_TECH" />
+		<Row Type="TECH_COMBINED_ARMS_GRANTS_URANIUM" Kind="KIND_TECH" />
+	</Types>
+
+	<!--...............................................................-->
+	<!--The definition of civics.......................................-->
+
+	<Civics>
+		<Row CivicType="CIVIC_DECONSTRUCTIVISM" Name="LOC_CIVIC_DECONSTRUCTIVISM_NAME" Description="LOC_CIVIC_DECONSTRUCTIVISM_DESCRIPTION" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_ATOMIC" UITreeRow="0"/>
+	</Civics>
+
+	<CivicPrereqs>
+		<Row Civic="CIVIC_DECONSTRUCTIVISM" PrereqCivic="CIVIC_IDEOLOGY"/>
+	</CivicPrereqs>
+
+	<!--...............................................................-->
+	<!--The definition of techs........................................-->
+	<Technologies>
+		<Row TechnologyType="TECH_CONTROLLED_NUCLEAR_FUSION" Name="LOC_TECH_CONTROLLED_NUCLEAR_FUSION_NAME" Description="LOC_TECH_CONTROLLED_NUCLEAR_FUSION_DESCRIPTION" Cost="3000" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="3"/>
+		<Row TechnologyType="TECH_HIGH_ENERGY_PHYSICS" Name="LOC_TECH_HIGH_ENERGY_PHYSICS_NAME" Description="LOC_TECH_HIGH_ENERGY_PHYSICS_DESCRIPTION" Cost="4200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="3"/>
+		<Row TechnologyType="TECH_EXOTIC_MATTER" Name="LOC_TECH_EXOTIC_MATTER_NAME" Description="LOC_TECH_EXOTIC_MATTER_DESCRIPTION" Cost="5400" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="2"/>
+		<Row TechnologyType="TECH_SUB_SPACE_PHYSICS" Name="LOC_TECH_SUB_SPACE_PHYSICS_NAME" Description="LOC_TECH_SUB_SPACE_PHYSICS_DESCRIPTION" Cost="6600" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="2"/>
+		<Row TechnologyType="TECH_ALCUBIERRE_DRIVE" Name="LOC_TECH_ALCUBIERRE_DRIVE_NAME" Description="LOC_TECH_ALCUBIERRE_DRIVE_DESCRIPTION" Cost="7800" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="2"/>
+
+
+		<Row TechnologyType="TECH_INDUSTRIALIZATION_GRANTS_COAL" Name="LOC_TECH_INDUSTRIALIZATION_GRANTS_COAL_NAME" Description="LOC_TECH_INDUSTRIALIZATION_GRANTS_COAL_DESCRIPTION" Cost="350" AdvisorType="ADVISOR_GENERIC" EraType="ERA_INDUSTRIAL" UITreeRow="-3" Repeatable="true"/>
+		<Row TechnologyType="TECH_MILITARY_ENGINEERING_GRANTS_NITER" Name="LOC_TECH_MILITARY_ENGINEERING_GRANTS_NITER_NAME" Description="LOC_TECH_MILITARY_ENGINEERING_GRANTS_NITER_DESCRIPTION" Cost="130" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MEDIEVAL" UITreeRow="1" Repeatable="true"/>
+		<Row TechnologyType="TECH_REFINING_GRANTS_OIL" Name="LOC_TECH_REFINING_GRANTS_OIL_NAME" Description="LOC_TECH_REFINING_GRANTS_OIL_DESCRIPTION" Cost="600" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MODERN" UITreeRow="3" Repeatable="true"/>
+		<Row TechnologyType="TECH_RADIO_GRANTS_ALUMINUM" Name="LOC_TECH_RADIO_GRANTS_ALUMINUM_NAME" Description="LOC_TECH_RADIO_GRANTS_ALUMINUM_DESCRIPTION" Cost="750" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MODERN" UITreeRow="-2" Repeatable="true"/>
+		<Row TechnologyType="TECH_COMBINED_ARMS_GRANTS_URANIUM" Name="LOC_TECH_COMBINED_ARMS_GRANTS_URANIUM_NAME" Description="LOC_TECH_COMBINED_ARMS_GRANTS_URANIUM_DESCRIPTION" Cost="1000" AdvisorType="ADVISOR_GENERIC" EraType="ERA_ATOMIC" UITreeRow="3" Repeatable="true"/>
+
+	</Technologies>
+
+	<TechnologyPrereqs>
+		<Row Technology="TECH_CONTROLLED_NUCLEAR_FUSION" PrereqTech="TECH_NUCLEAR_FUSION"/>
+		<Row Technology="TECH_HIGH_ENERGY_PHYSICS" PrereqTech="TECH_CONTROLLED_NUCLEAR_FUSION"/>
+		<Row Technology="TECH_EXOTIC_MATTER" PrereqTech="TECH_CONTROLLED_NUCLEAR_FUSION"/>
+		<Row Technology="TECH_SUB_SPACE_PHYSICS" PrereqTech="TECH_HIGH_ENERGY_PHYSICS"/>
+		<Row Technology="TECH_SUB_SPACE_PHYSICS" PrereqTech="TECH_EXOTIC_MATTER"/>
+		<Row Technology="TECH_ALCUBIERRE_DRIVE" PrereqTech="TECH_SUB_SPACE_PHYSICS"/>
+		<!--The following tech can be researched many times-->
+		<Row Technology="TECH_INDUSTRIALIZATION_GRANTS_COAL" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row Technology="TECH_MILITARY_ENGINEERING_GRANTS_NITER" PrereqTech="TECH_MILITARY_ENGINEERING"/>
+		<Row Technology="TECH_REFINING_GRANTS_OIL" PrereqTech="TECH_REFINING"/>
+		<Row Technology="TECH_RADIO_GRANTS_ALUMINUM" PrereqTech="TECH_RADIO"/>
+		<Row Technology="TECH_COMBINED_ARMS_GRANTS_URANIUM" PrereqTech="TECH_COMBINED_ARMS"/>
+	</TechnologyPrereqs>
+
+	<!--...............................................................-->
+	<Improvement_BonusYieldChanges>
+		<Row Id="121" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" BonusYieldChange="4" PrereqTech="TECH_CONTROLLED_NUCLEAR_FUSION"/>
+	</Improvement_BonusYieldChanges>
+	<!--...............................................................-->
+	<TechnologyModifiers>
+		<!--.....................................................-->
+		<Row>
+			<TechnologyType>TECH_CONTROLLED_NUCLEAR_FUSION</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_CONTROLLED_NUCLEAR_FUSION</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+		</Row>
+		<!--.....................................................-->
+		<Row>
+			<TechnologyType>TECH_HIGH_ENERGY_PHYSICS</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_HIGH_ENERGY_PHYSICS</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+		</Row>
+		<!--.....................................................-->
+		<Row>
+			<TechnologyType>TECH_EXOTIC_MATTER</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_EXOTIC_MATTER</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+		</Row>
+		<!--.....................................................-->
+		<Row>
+			<TechnologyType>TECH_SUB_SPACE_PHYSICS</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_SUB_SPACE_PHYSICS</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+		</Row>
+		<!--.....................................................-->
+		<Row>
+			<TechnologyType>TECH_ALCUBIERRE_DRIVE</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ALCUBIERRE_DRIVE</TechnologyType>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+		</Row>
+		<!--.....................................................
+
+
+		All these techs extends the same modifier:
+		
+		ModifierID		=	MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE
+		ModifierTyoe	=	MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER
+		
+		with Production + 20% and Science + 20%:
+
+		
+		<Row Type="CIVIC_DECONSTRUCTIVISM" Kind="KIND_CIVIC"/>			========\\
+		<Row Type="TECH_CONTROLLED_NUCLEAR_FUSION" Kind="KIND_TECH" />	=========\\
+		<Row Type="TECH_HIGH_ENERGY_PHYSICS" Kind="KIND_TECH" />		==========\\___________________________________________________  
+		<Row Type="TECH_EXOTIC_MATTER" Kind="KIND_TECH" />				==========//____MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE|
+		<Row Type="TECH_SUB_SPACE_PHYSICS" Kind="KIND_TECH" />			=========//
+		<Row Type="TECH_ALCUBIERRE_DRIVE" Kind="KIND_TECH" />			========//
+
+		.....................................................-->
+	</TechnologyModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TECH_CONTROLLED_NUCLEAR_FUSION_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>
+
+

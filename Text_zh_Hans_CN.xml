@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Text_zh_Hans_CN -->
+<!-- Author: polaris_cheung -->
+<!-- DateCreated: 12/22/2021 12:33:02 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_GRANTS_COAL_NAME" Language="zh_Hans_CN">
+			<Text>
+				煤炭计划（无中生有）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_GRANTS_COAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				每次当你完成这个叶子节点时，你都会收到35单位的煤炭。该节点可以多次完成。
+			</Text>
+		</Replace>
+	</LocalizedText>
+	
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_GRANTS_NITER_NAME" Language="zh_Hans_CN">
+			<Text>
+				硝石计划（无中生有）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MILITARY_ENGINEERING_GRANTS_NITER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				每次当你完成这个叶子节点时，你都会收到25单位的硝石。该节点可以多次完成。
+			</Text>
+		</Replace>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_REFINING_GRANTS_OIL_NAME" Language="zh_Hans_CN">
+			<Text>
+				石油计划（无中生有）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_GRANTS_OIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				每次当你完成这个叶子节点时，你都会收到35单位的石油。该节点可以多次完成。
+			</Text>
+		</Replace>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_RADIO_GRANTS_ALUMINUM_NAME" Language="zh_Hans_CN">
+			<Text>
+				铝计划（无中生有）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_RADIO_GRANTS_ALUMINUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				每次当你完成这个叶子节点时，你都会收到20单位的铝。该节点可以多次完成。
+			</Text>
+		</Replace>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_TECH_COMBINED_ARMS_GRANTS_URANIUM_NAME" Language="zh_Hans_CN">
+			<Text>
+				铀计划（无中生有）
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMBINED_ARMS_GRANTS_URANIUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				每次当你完成这个叶子节点时，你都会收到20单位的铀。该节点可以多次完成。
+			</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
